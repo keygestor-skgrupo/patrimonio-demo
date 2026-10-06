@@ -1,0 +1,44 @@
+{
+  "name": "Sistema de Gestão Patrimonial - Grupo SK",
+  "short_name": "SGP Grupo SK",
+  "description": "Sistema de gestão e controle patrimonial do Grupo SK",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "pt-BR",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Acesso rápido ao dashboard",
+      "url": "/dashboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Bens",
+      "short_name": "Bens",
+      "description": "Gerenciar bens patrimoniais",
+      "url": "/bens",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "QR Scanner",
+      "short_name": "Scanner",
+      "description": "Escanear QR codes",
+      "url": "/bens",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
